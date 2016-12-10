@@ -1,0 +1,60 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/home/julienawilson/Desktop/Programs/401py/class_05/code-katas/bin/python3', local('/home/julienawilson/Desktop/Programs/401py/class_05/code-katas/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/julienawilson/Desktop/Programs/401py/class_05/code-katas/.tox/dist')]
+env: None
+
+running sdist
+running egg_info
+writing src/code_katas.egg-info/PKG-INFO
+writing dependency_links to src/code_katas.egg-info/dependency_links.txt
+writing requirements to src/code_katas.egg-info/requires.txt
+writing top-level names to src/code_katas.egg-info/top_level.txt
+file src/fake_binary.py (for module fake_binary) not found
+reading manifest file 'src/code_katas.egg-info/SOURCES.txt'
+writing manifest file 'src/code_katas.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+warning: check: missing required meta-data: url
+
+creating code_katas-0.1
+creating code_katas-0.1/src
+creating code_katas-0.1/src/code_katas.egg-info
+copying files to code_katas-0.1...
+copying setup.py -> code_katas-0.1
+copying src/binary_list_to_number.py -> code_katas-0.1/src
+copying src/count_positives_sum_negatives.py -> code_katas-0.1/src
+copying src/digitize.py -> code_katas-0.1/src
+copying src/flatten_me.py -> code_katas-0.1/src
+copying src/last.py -> code_katas-0.1/src
+copying src/multiples.py -> code_katas-0.1/src
+copying src/reverse_and_mirror.py -> code_katas-0.1/src
+copying src/sea_sick.py -> code_katas-0.1/src
+copying src/string_to_array.py -> code_katas-0.1/src
+copying src/sum_from_string.py -> code_katas-0.1/src
+copying src/code_katas.egg-info/PKG-INFO -> code_katas-0.1/src/code_katas.egg-info
+copying src/code_katas.egg-info/SOURCES.txt -> code_katas-0.1/src/code_katas.egg-info
+copying src/code_katas.egg-info/dependency_links.txt -> code_katas-0.1/src/code_katas.egg-info
+copying src/code_katas.egg-info/requires.txt -> code_katas-0.1/src/code_katas.egg-info
+copying src/code_katas.egg-info/top_level.txt -> code_katas-0.1/src/code_katas.egg-info
+Writing code_katas-0.1/setup.cfg
+creating '.tox/dist/code_katas-0.1.zip' and adding 'code_katas-0.1' to it
+adding 'code_katas-0.1/setup.cfg'
+adding 'code_katas-0.1/setup.py'
+adding 'code_katas-0.1/PKG-INFO'
+adding 'code_katas-0.1/src/flatten_me.py'
+adding 'code_katas-0.1/src/string_to_array.py'
+adding 'code_katas-0.1/src/digitize.py'
+adding 'code_katas-0.1/src/count_positives_sum_negatives.py'
+adding 'code_katas-0.1/src/reverse_and_mirror.py'
+adding 'code_katas-0.1/src/sum_from_string.py'
+adding 'code_katas-0.1/src/last.py'
+adding 'code_katas-0.1/src/multiples.py'
+adding 'code_katas-0.1/src/sea_sick.py'
+adding 'code_katas-0.1/src/binary_list_to_number.py'
+adding 'code_katas-0.1/src/code_katas.egg-info/dependency_links.txt'
+adding 'code_katas-0.1/src/code_katas.egg-info/SOURCES.txt'
+adding 'code_katas-0.1/src/code_katas.egg-info/top_level.txt'
+adding 'code_katas-0.1/src/code_katas.egg-info/requires.txt'
+adding 'code_katas-0.1/src/code_katas.egg-info/PKG-INFO'
+removing 'code_katas-0.1' (and everything under it)

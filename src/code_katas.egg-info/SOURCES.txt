@@ -1,0 +1,16 @@
+setup.py
+src/binary_list_to_number.py
+src/count_positives_sum_negatives.py
+src/digitize.py
+src/flatten_me.py
+src/last.py
+src/multiples.py
+src/reverse_and_mirror.py
+src/sea_sick.py
+src/string_to_array.py
+src/sum_from_string.py
+src/code_katas.egg-info/PKG-INFO
+src/code_katas.egg-info/SOURCES.txt
+src/code_katas.egg-info/dependency_links.txt
+src/code_katas.egg-info/requires.txt
+src/code_katas.egg-info/top_level.txt

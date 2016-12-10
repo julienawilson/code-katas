@@ -1,0 +1,7 @@
+setup.py
+src/ackermann.egg-info/PKG-INFO
+src/ackermann.egg-info/SOURCES.txt
+src/ackermann.egg-info/dependency_links.txt
+src/ackermann.egg-info/entry_points.txt
+src/ackermann.egg-info/requires.txt
+src/ackermann.egg-info/top_level.txt
