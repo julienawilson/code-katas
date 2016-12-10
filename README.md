@@ -8,8 +8,8 @@ Convert a String to an Array (8 kyu)
 -Interesting/simplest Solution: I didn't think to add the space in the .split().
 
 ```python
-
 def string_to_array(string):
+    """Solution by jerod84."""
     return string.split(" ")
     
 ```
@@ -20,7 +20,8 @@ Last (8 kyu)
 - Link: https://www.codewars.com/kata/last/train/python
 -Interesting Solution: I love try/except.  It's so simple.
 ```python
-def last(*args): 
+def last(*args):
+    """Solution by jake9066."""
     try:
         return args[-1][-1]
     except:
@@ -34,6 +35,7 @@ Fake Binary (8 kyu)
 -Interesting Solution: 
 ```python
 def fake_bin(s):
+    """Solution by PilgrimShadow."""
   return ''.join('0' if int(c) < 5 else '1' for c in s)
 ```
 
@@ -44,6 +46,7 @@ Count of positives / sum of negatives (8 kyu)
 -Interesting Solution: I think these ternaries are interesting but I'm not sure I like them.  I think they're kind of hard to read.  Are they more pythonic than ifs and fors?
 ```python
 def count_positives_sum_negatives(arr):
+    """Solution by j.pihlgren."""
     return [len([x for x in arr if x > 0])] + [sum(y for y in arr if y < 0)] if arr else []
 ```
 
@@ -54,6 +57,7 @@ Convert number to reversed array of digits (8 kyu)
 -Interesting Solution: I liked map functions in js but am not yet used to them in python.
 ```python
 def digitize(n):
+    """Solution by colbydauph."""
     return map(int, str(n)[::-1])
 ```
 
@@ -64,7 +68,8 @@ Ones and zeros (8 kyu)
 -Interesting Solution: Still love that map.  Didn't know about the binary optional argument in int().  That's cool.
 ```python
 def binary_array_to_number(arr):
-  return int("".join(map(str, arr)), 2)
+    """Solution by andrewferk."""
+    return int("".join(map(str, arr)), 2)
 ```
 
 
@@ -75,6 +80,7 @@ Holiday V - SeaSick Snorkelling (7 kyu)
 -Interesting Solution: Another simple ternary.  I think this one is easy to read and clear.
 ```python
 def sea_sick(sea):
+    """Solution by kevin.du."""
     return "Throw Up" if (sea.count("~_") + sea.count("_~")) > 0.2*len(sea) else "No Problem"
 ```
 
@@ -85,6 +91,7 @@ String Reversing, Changing case, etc. (7 kyu)
 -Interesting Solution: Simple ternary.  I think this one is even clearer and easier to read.
 ```python
 def reverseAndMirror(s1,s2):
+    """Solution by dkleist."""
     return s2.swapcase()[::-1] + '@@@' + s1.swapcase()[::-1] + s1.swapcase()
 ```
 
@@ -92,23 +99,34 @@ Flatten Me (7 kyu)
 - Module: flatten_me.py
 - Tests: test_flatten_me.py
 - Link: https://www.codewars.com/kata/flatten-me/train/python
--Interesting Solution: ADD ME HERE
+-Interesting Solution: I'm hoping that if I look at enough of these ternaries I'll start using them.
 ```python
+def flatten_me(lst):
+    """Soltion by daddepledge."""
+    return [v for sub in [e if type(e) == list else [e] for e in lst] for v in sub]
 ```
 
 Sum up the random string (7 kyu)
 - Module: sum_from_string.py
 - Tests: test_sum_from_string.py
 - Link: https://www.codewars.com/kata/sum-up-the-random-string/train/python
--Interesting Solution: ADD ME HERE
+-Interesting Solution: I spent some time trying to do it this way, but I come up short figuring out the regex.  
 ```python
+import re
+def sum_from_string(string):
+    """Solution by JustFY."""
+    d = re.findall("\d+",string)
+    return sum(int(i) for i in d)
 ```
 
 Show multiples of 2 numbers within a range (7 kyu)
 - Module: multiples.py
 - Tests: test_multiples.py
 - Link: https://www.codewars.com/kata/show-multiples-of-2-numbers-within-a-range/train/python
--Interesting Solution: ADD ME HERE
+-Interesting Solution: I like that they used not a % s1.  I didnt think to use a not with modulus but it makes so much sense.  Will do that in the future.
 ```python
+def multiples(s1, s2, s3):
+    """Solution by zebulan."""
+    return [a for a in xrange(1, s3) if not(a % s1 or a % s2)]
 ```
 
