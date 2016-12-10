@@ -6,6 +6,7 @@ Convert a String to an Array (8 kyu)
 - Tests: test_string_to_array.py
 - Link: https://www.codewars.com/kata/convert-a-string-to-an-array/train/python
 -Interesting/simplest Solution: I didn't think to add the space in the .split().
+
 '''python
 def string_to_array(string):
     return string.split(" ")
