@@ -5,7 +5,7 @@ Convert a String to an Array (8 kyu)
 - Module:string_to_array.py
 - Tests: test_string_to_array.py
 - Link: https://www.codewars.com/kata/convert-a-string-to-an-array/train/python
--Interesting/simplest Solution: I didn't think to add the space in the .split().
+- Interesting/simplest Solution: I didn't think to add the space in the .split().
 
 ```python
 def string_to_array(string):
@@ -18,7 +18,7 @@ Last (8 kyu)
 - Module: last.py
 - Tests: test_last.py
 - Link: https://www.codewars.com/kata/last/train/python
--Interesting Solution: I love try/except.  It's so simple.
+- Interesting Solution: I love try/except.  It's so simple.
 ```python
 def last(*args):
     """Solution by jake9066."""
