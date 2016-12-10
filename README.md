@@ -32,7 +32,7 @@ Fake Binary (8 kyu)
 - Module: fake_binary.py
 - Tests: fake_binary.py
 - Link: https://www.codewars.com/kata/fake-binary
--Interesting Solution: 
+- Interesting Solution: 
 ```python
 def fake_bin(s):
     """Solution by PilgrimShadow."""
@@ -43,7 +43,7 @@ Count of positives / sum of negatives (8 kyu)
 - Module: count_positives_sum_negatives.py
 - Tests: test_count_positives_sum_negatives.py
 - Link: https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives/train/python
--Interesting Solution: I think these ternaries are interesting but I'm not sure I like them.  I think they're kind of hard to read.  Are they more pythonic than ifs and fors?
+- Interesting Solution: I think these ternaries are interesting but I'm not sure I like them.  I think they're kind of hard to read.  Are they more pythonic than ifs and fors?
 ```python
 def count_positives_sum_negatives(arr):
     """Solution by j.pihlgren."""
@@ -54,7 +54,7 @@ Convert number to reversed array of digits (8 kyu)
 - Module: digitize.py
 - Tests: test_digitize.py
 - Link: https://www.codewars.com/kata/convert-number-to-reversed-array-of-digits/train/python
--Interesting Solution: I liked map functions in js but am not yet used to them in python.
+- Interesting Solution: I liked map functions in js but am not yet used to them in python.
 ```python
 def digitize(n):
     """Solution by colbydauph."""
@@ -65,7 +65,7 @@ Ones and zeros (8 kyu)
 - Module: binary_list_to_number.py
 - Tests: test_list_array_to_number.py
 - Link: https://www.codewars.com/kata/ones-and-zeros/train/python
--Interesting Solution: Still love that map.  Didn't know about the binary optional argument in int().  That's cool.
+- Interesting Solution: Still love that map.  Didn't know about the binary optional argument in int().  That's cool.
 ```python
 def binary_array_to_number(arr):
     """Solution by andrewferk."""
@@ -77,7 +77,7 @@ Holiday V - SeaSick Snorkelling (7 kyu)
 - Module: sea_sick.py
 - Tests: test_sea_sick.py
 - Link: https://www.codewars.com/kata/holiday-v-seasick-snorkelling/train/python
--Interesting Solution: Another simple ternary.  I think this one is easy to read and clear.
+- Interesting Solution: Another simple ternary.  I think this one is easy to read and clear.
 ```python
 def sea_sick(sea):
     """Solution by kevin.du."""
@@ -88,7 +88,7 @@ String Reversing, Changing case, etc. (7 kyu)
 - Module: reverse_and_mirror.py
 - Tests: test_reverse_and_mirror.py
 - Link: https://www.codewars.com/kata/string-reversing-changing-case-etc/train/python
--Interesting Solution: Simple ternary.  I think this one is even clearer and easier to read.
+- Interesting Solution: Simple ternary.  I think this one is even clearer and easier to read.
 ```python
 def reverseAndMirror(s1,s2):
     """Solution by dkleist."""
@@ -99,7 +99,7 @@ Flatten Me (7 kyu)
 - Module: flatten_me.py
 - Tests: test_flatten_me.py
 - Link: https://www.codewars.com/kata/flatten-me/train/python
--Interesting Solution: I'm hoping that if I look at enough of these ternaries I'll start using them.
+- Interesting Solution: I'm hoping that if I look at enough of these ternaries I'll start using them.
 ```python
 def flatten_me(lst):
     """Soltion by daddepledge."""
@@ -110,7 +110,7 @@ Sum up the random string (7 kyu)
 - Module: sum_from_string.py
 - Tests: test_sum_from_string.py
 - Link: https://www.codewars.com/kata/sum-up-the-random-string/train/python
--Interesting Solution: I spent some time trying to do it this way, but I come up short figuring out the regex.  
+- Interesting Solution: I spent some time trying to do it this way, but I come up short figuring out the regex.  
 ```python
 import re
 def sum_from_string(string):
@@ -123,7 +123,7 @@ Show multiples of 2 numbers within a range (7 kyu)
 - Module: multiples.py
 - Tests: test_multiples.py
 - Link: https://www.codewars.com/kata/show-multiples-of-2-numbers-within-a-range/train/python
--Interesting Solution: I like that they used not a % s1.  I didnt think to use a not with modulus but it makes so much sense.  Will do that in the future.
+- Interesting Solution: I like that they used not a % s1.  I didnt think to use a not with modulus but it makes so much sense.  Will do that in the future.
 ```python
 def multiples(s1, s2, s3):
     """Solution by zebulan."""
