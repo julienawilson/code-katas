@@ -130,3 +130,14 @@ def multiples(s1, s2, s3):
     return [a for a in xrange(1, s3) if not(a % s1 or a % s2)]
 ```
 
+
+Sum of the first nth terms of a series (7 kyu)
+- Module: series_sum.py
+- Tests: test_series_sum.py
+- Link: http://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/train/python
+- Interesting Solution: Making the numerator a float() was smart.
+```python
+def series_sum(n):
+    """Solution by MMMAAANNN"""
+    return '{:.2f}'.format(sum(1.0/(3 * i + 1) for i in range(n)))
+```
