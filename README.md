@@ -150,3 +150,4 @@ Proper Parenthetics
 Sort Cards (7kyu)
 -Module: sort_cards.py
 -Tests: test_sort_cards.py
+-Link: https://www.codewars.com/kata/sort-deck-of-cards/train/python
