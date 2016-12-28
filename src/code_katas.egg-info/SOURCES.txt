@@ -5,8 +5,10 @@ src/digitize.py
 src/flatten_me.py
 src/last.py
 src/multiples.py
+src/priority.py
 src/reverse_and_mirror.py
 src/sea_sick.py
+src/sort_cards.py
 src/string_to_array.py
 src/sum_from_string.py
 src/code_katas.egg-info/PKG-INFO

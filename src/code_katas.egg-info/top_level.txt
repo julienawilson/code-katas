@@ -5,7 +5,9 @@ fake_binary
 flatten_me
 last
 multiples
+priority
 reverse_and_mirror
 sea_sick
+sort_cards
 string_to_array
 sum_from_string

@@ -12,8 +12,7 @@ def proper_parenthetics(input_string):
         if i == ')':
             if parenthetics_stack.head_node is None:
                 return -1
-            else:
-                parenthetics_stack.pop()
+            parenthetics_stack.pop()
     if parenthetics_stack.head_node is None:
         return 0
     return 1
